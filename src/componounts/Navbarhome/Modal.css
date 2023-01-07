@@ -1,0 +1,76 @@
+.modalBackground {
+    
+    background-color: rgba(70, 70, 70, 0.61);
+    position: absolute;
+    display: flex;
+    justify-content:initial;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    position: absolute;
+width: 500px;
+height: 500px;
+left: 100px;
+top: 80px;
+
+background: #FFFFFF;
+border-radius: 30px;
+  }
+  
+ .title {
+    display: flex ;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 68px;
+
+color: #2825B9;
+  }
+  
+  .close button {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+  .googlebtn{
+    
+
+
+width: 300px;
+height: 50px;
+margin-left: 60px;
+margin-top: 120px;
+
+border: 2px solid #2825B9;
+border-radius: 20px;
+  }
+
+
+  .modalContainer h6 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+margin-top : 100px ; 
+color: #959595;
+  }
